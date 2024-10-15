@@ -1,0 +1,38 @@
+:root {
+  --font-heading: "Inknut Antiqua", sans-serif;
+  --font-body: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  font-family: var(--font-heading);
+}
+
+p {
+  overflow-wrap: break-word;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
